@@ -10,10 +10,10 @@
   --blueGray:    #555B6E;
   --romanSilver: #757E95;
   --darkGray: #3c3f46;
-  --teal: #305573;
+  /* --teal: #305573;
   --lightBrown: #B68770;
   --orangeBrown: #CE7048;
-  --lightBlue: #91bbd1;
+  --lightBlue: #91bbd1; */
   --whiteIsh: #F4F5EF;
 }
 
@@ -36,12 +36,12 @@
 }
 
 .dark-theme {
-  --navBg:          var(--blueGray);
+  --navBg:          var(--darkGray);
   --navLinkHoverBg: var(--whiteIsh);
-  --mainBg:         var(--darkGray);
+  --mainBg:         var(--blueGray);
   --fontColor:      var(--whiteIsh);
-  --navLinkColor:   var(--lightBlue);
-  --formBG:         var(--lightBlue);
+  --navLinkColor:   var(--lightCoral);
+  --formBG:         var(--darkGray);
   --formInput:      var(--romanSilver);
 }
 
