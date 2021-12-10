@@ -205,6 +205,7 @@ input[type=text]:focus {
  color: var(--white);
 }
 
+/*mobile friendly responsive section*/
 
 @media screen and (max-width: 600px) {
   .myForm {
@@ -219,10 +220,12 @@ input[type=text]:focus {
 
   .message {
     order: 1;
+    margin-bottom: 1em;
   }
 
-  body {
-    width: 100vw;
+  .message > textarea {
+    min-width: 82vw;
+    max-width: 90vw;
+    /* if this is made bigger than the <form> the page looks wonky so capping width*/
   }
-  
 }
