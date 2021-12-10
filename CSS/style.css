@@ -9,6 +9,12 @@
   --black:       #23262E;
   --blueGray:    #555B6E;
   --romanSilver: #757E95;
+  --darkGray: #3c3f46;
+  --teal: #305573;
+  --lightBrown: #B68770;
+  --orangeBrown: #CE7048;
+  --lightBlue: #91bbd1;
+  --whiteIsh: #F4F5EF;
 }
 
 * {
@@ -28,6 +34,17 @@
   --formBG:         var(--lightCoral);
   --formInput:      var(--white);
 }
+
+.dark-theme {
+  --navBg:          var(--blueGray);
+  --navLinkHoverBg: var(--whiteIsh);
+  --mainBg:         var(--darkGray);
+  --fontColor:      var(--whiteIsh);
+  --navLinkColor:   var(--lightBlue);
+  --formBG:         var(--lightBlue);
+  --formInput:      var(--romanSilver);
+}
+
 
 /* toggle styles begin */
 .toggle {
@@ -186,4 +203,10 @@ input[type=text]:focus {
 .contact button {
  background: var(--darkGreen);
  color: var(--white);
+}
+
+
+@media screen and (max-width: 600px) {
+
+
 }
