@@ -207,6 +207,22 @@ input[type=text]:focus {
 
 
 @media screen and (max-width: 600px) {
+  .myForm {
+    flex-direction: column;
+    margin: 1vw;
+  }
 
+  h1, h2 {
+    font-size: 5rem;
+    text-align: center;
+  }
 
+  .message {
+    order: 1;
+  }
+
+  body {
+    width: 100vw;
+  }
+  
 }
